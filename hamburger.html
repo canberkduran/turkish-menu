@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Hamburger İçerik</title>
+  <style>
+    body {
+      font-family: 'Trebuchet MS', sans-serif;
+      background-color: #2656be;
+    }
+    .konteyner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .resim {
+      flex: 1;
+      text-align: center;
+    }
+    .resim img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .bilgi {
+      flex: 1;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .bilgi h2 {
+      margin-top: 0;
+    }
+    .fiyat{
+      text-align: center;
+      font-weight: bolder;
+      background-color: wheat;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="konteyner">
+    <table>
+      <tr>
+        <td>
+    <div class="resim">
+      <img src="pictures/hamburger.jpg" alt="Resim">
+    </div>
+  </td>
+  </tr>
+  <tr>
+    <td class="fiyat">85₺</td>
+  </tr>
+  </table>
+    <div class="bilgi">
+      <h1>Hamburger</h1>
+      <hr size="3">
+      <h2>İçerik</h2>
+      
+      <ul>
+        <li>Özel olarak hazırlanmış dana etli hamburger köftesi(175gr)</li>
+        <li>Yeşillikler(domates,iceberg)</li>
+        <li>Özel Paşa Sos</li>
+      </ul>
+      <p>
+        985 Kalori
+      </p>
+      <p style="color:rgb(247, 168, 168);">
+        Eser miktarda fıstık içerebilir!
+      </p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aaf8ea;
+  }
+  .menu {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  h1 {
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+  }
+  .bilgi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    
+  }
+  .bilgi:hover {
+    opacity: 1;
+  }
+  .isim {
+    font-weight: bold;
+  }
+  .detay {
+    margin-top: 10px;
+    color: #888;
+  }
+  .resim {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    opacity: 1;
+
+  }
+
+  .resim:hover{
+    opacity: 0.5;
+  
+}
+
+
+  .alt {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+  }
+
+  .buyuk {
+    position: relative;
+    display: inline-block;
+}
+
+.kucuk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px; 
+    height: 50px;
+}
+
+
+
+
+  
+  
+
+  @media screen and (min-width: 600px) {
+    li {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (min-width: 900px) {
+    li {
+      width: 33.33%;
+    }
+  }
+       
